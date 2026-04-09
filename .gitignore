@@ -1,0 +1,14 @@
+# Qt / C++ ignore
+*.pro.user
+*.pro.user.*
+*.autosave
+*.qmake.stash
+*.o
+*.obj
+*.exe
+*.dll
+*.log
+build-*/
+release/
+debug/
+*.tmp

@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/flash/flash.gif</file>
+        <file>res/flash/flash.jpg</file>
+        <file>res/flash/start.jpg</file>
+        <file>res/bgimg/UI0.png</file>
+        <file>res/bgimg/UI1.png</file>
+        <file>res/bgimg/UI2.png</file>
+        <file>res/bgimg/UI3.png</file>
+        <file>res/bgimg/UI5.png</file>
+        <file>res/bgimg/UI6.png</file>
+        <file>res/bgimg/UI7.png</file>
+        <file>res/bgimg/UI8.png</file>
+        <file>res/bgimg/UI9.png</file>
+        <file>res/infoico/0.png</file>
+        <file>res/infoico/1.png</file>
+        <file>res/infoico/2.png</file>
+        <file>res/infoico/3.png</file>
+        <file>res/infoico/4.png</file>
+        <file>res/infoico/5.png</file>
+        <file>res/infoico/6.png</file>
+        <file>res/infoico/7.png</file>
+        <file>res/infoico/8.png</file>
+        <file>res/infoico/9.png</file>
+        <file>res/infoico/10.png</file>
+        <file>res/infoico/11.png</file>
+        <file>res/infoico/12.png</file>
+    </qresource>
+</RCC>
