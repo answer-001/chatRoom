@@ -31,7 +31,10 @@ SOURCES += \
     register.cpp \
     rollitem.cpp \
     login.cpp \
-    sqlite.cpp
+    sqlite.cpp \
+    rollpix.cpp \
+    chatlist.cpp \
+    userform.cpp
 
 HEADERS += \
         chatroom.h \
@@ -39,13 +42,18 @@ HEADERS += \
     register.h \
     rollitem.h \
     login.h \
-    sqlite.h
+    sqlite.h \
+    rollpix.h \
+    chatlist.h \
+    userform.h
 
 FORMS += \
         chatroom.ui \
     flash.ui \
     register.ui \
-    login.ui
+    login.ui \
+    chatlist.ui \
+    userform.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

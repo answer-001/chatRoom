@@ -1,24 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>chatRoom</class>
- <widget class="QMainWindow" name="chatRoom" >
-  <property name="geometry" >
+ <widget class="QMainWindow" name="chatRoom">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>872</width>
+    <height>489</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="font">
+   <font>
+    <pointsize>20</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
    <string>chatRoom</string>
   </property>
-  <widget class="QMenuBar" name="menuBar" />
-  <widget class="QToolBar" name="mainToolBar" />
-  <widget class="QWidget" name="centralWidget" />
-  <widget class="QStatusBar" name="statusBar" />
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="chat">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>511</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>聊天区域</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="message">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>20</y>
+      <width>281</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>1</number>
+    </property>
+    <property name="columnCount">
+     <number>2</number>
+    </property>
+    <row/>
+    <column/>
+    <column/>
+   </widget>
+  </widget>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
+ <layoutdefault spacing="6" margin="11"/>
  <resources/>
  <connections/>
 </ui>

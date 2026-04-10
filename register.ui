@@ -10,16 +10,26 @@
     <height>482</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <family>华文宋体</family>
+    <pointsize>20</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>注册界面</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QLineEdit{
+   <string notr="true">
+QLineEdit{
 	border:2px solid black;
 	border-radius: 10px;
 }</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
+  <widget class="rollpix" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
@@ -375,6 +385,14 @@
    </widget>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>rollpix</class>
+   <extends>QWidget</extends>
+   <header location="global">rollpix.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="res.qrc"/>
  </resources>

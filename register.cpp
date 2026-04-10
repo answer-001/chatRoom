@@ -16,6 +16,8 @@ Register::Register(QWidget* parent) :
     ui->password->setValidator(validator);
     ui->password_2->setValidator(validator);
     ui->username->setValidator(validator);
+    ui->centralwidget->setBackGroundDir(":/res/bgimg");
+
 }
 
 Register::~Register()

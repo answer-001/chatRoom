@@ -17,9 +17,15 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>登录界面</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="rollpix" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <widget class="QPushButton" name="login">
     <property name="geometry">
      <rect>
@@ -28,6 +34,12 @@
       <width>75</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文宋体</family>
+      <pointsize>20</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>登录</string>
@@ -42,6 +54,12 @@
       <height>50</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>华文宋体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
     <property name="placeholderText">
      <string>请输入用户名</string>
     </property>
@@ -54,6 +72,12 @@
       <width>250</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文宋体</family>
+      <pointsize>20</pointsize>
+     </font>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::Password</enum>
@@ -75,24 +99,6 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>40</y>
-      <width>201</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文楷体</family>
-     </font>
-    </property>
-    <property name="text">
-     <string>聊天室登陆界面</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="regis">
     <property name="geometry">
      <rect>
@@ -101,6 +107,12 @@
       <width>75</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文宋体</family>
+      <pointsize>20</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>注册</string>
@@ -129,8 +141,38 @@ border-radius:25;</string>
      <string/>
     </property>
    </widget>
+   <widget class="rollitem" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>321</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文宋体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+   </widget>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>rollitem</class>
+   <extends>QWidget</extends>
+   <header>rollitem.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>rollpix</class>
+   <extends>QWidget</extends>
+   <header location="global">rollpix.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

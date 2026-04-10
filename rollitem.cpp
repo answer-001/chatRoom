@@ -14,7 +14,7 @@ void rollitem::paintEvent(QPaintEvent* event)
     //实例化画板对象
     QPainter painter(this);
     painter.drawText(this->x, this->height() / 2.0, this->text); //重绘文本
-    painter.drawText(this->x + textWidth + 50, this->height() / 2.0, this->text); // 绘制两次
+    painter.drawText(this->x + textWidth + 100, this->height() / 2.0, this->text); // 绘制两次
 }
 //定时器事件负责更新显示位置
 void rollitem::timerEvent(QTimerEvent* event)

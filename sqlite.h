@@ -22,6 +22,7 @@ public:
     QString login(QString username, QString password);
     bool isUnique(QString sql);
     QString getAvatar(QString username);
+    QSqlQuery getAll();
 private:
     SqlLite();
     QSqlDatabase DB;

@@ -66,6 +66,12 @@ bool SqlLite::isUnique(QString username)
     return false;
 }
 
+QSqlQuery SqlLite::getAll()
+{
+    QString sql("select * from user order by id");
+    return QSqlQuery(sql);
+}
+
 QString SqlLite::getAvatar(QString username)
 {
     QString sql = QString("select * from user where username = '%1'")
